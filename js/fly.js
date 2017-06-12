@@ -9,7 +9,7 @@
         count = 0;
       srcList.forEach(function (value) {
         var img = new Image();
-        img.src = "../images/" + value + ".png";
+        img.src = "./images/" + value + ".png";
         obj[value] = img;
         console.log(obj);
         img.onload = function () {
