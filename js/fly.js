@@ -11,7 +11,6 @@
         var img = new Image();
         img.src = "./images/" + value + ".png";
         obj[value] = img;
-        console.log(obj);
         img.onload = function () {
           count++;
           if (count >= length) {
