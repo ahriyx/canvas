@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="cv"></div>
+  <script src="./js/fly.js"></script>
+  <script src="./js/bird.js"></script>
+  <!--天空对象-->
+  <script src="./js/sky.js"></script>
+  <!--陆地-->
+  <script src="./js/land.js"></script>
+
+  <script src="./js/pipe.js"></script>
+  <script src="./js/game.js"></script>
+
+  <script>
+    // var game = new Fly.Game({
+    //   id: "cv"
+    // });
+    var game = Fly.getGame({
+      id: "cv"
+    });
+    game.start();
+  </script>
+</body>
+
+</html>
